@@ -1,0 +1,16 @@
+{
+  "name": "todo-cli",
+  "version": "1.0.0",
+  "description": "TypeScript öğrenmek için küçük, tipli bir yapılacaklar listesi CLI'ı",
+  "private": true,
+  "type": "commonjs",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/cli.js",
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.0",
+    "typescript": "^5.7.0"
+  }
+}
