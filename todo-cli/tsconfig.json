@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    // Derlenen JavaScript'in hedef sürümü
+    "target": "ES2022",
+    "module": "commonjs",
+    "rootDir": "src",
+    "outDir": "dist",
+
+    // "strict" tüm sıkı kontrolleri açar (strictNullChecks dahil).
+    // Böylece null / undefined olabilecek değerleri kontrol etmeden kullanamayız.
+    "strict": true,
+    // Dizi/nesne indekslemesi "T | undefined" döner: todos[5] var olmayabilir!
+    "noUncheckedIndexedAccess": true,
+    // switch içinde bir durumu unutursak veya fonksiyon her yolda değer döndürmezse uyarır
+    "noImplicitReturns": true,
+    "noFallthroughCasesInSwitch": true,
+
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true
+  },
+  "include": ["src"]
+}
