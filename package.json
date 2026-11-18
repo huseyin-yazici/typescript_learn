@@ -1,0 +1,29 @@
+{
+  "name": "typescript_learn",
+  "version": "1.0.0",
+  "description": "TypeScript öğrenme örnekleri",
+  "scripts": {
+    "dev": "tsx",
+    "watch": "tsx watch",
+    "typecheck": "tsc --noEmit",
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/huseyin-yazici/typescript_learn.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/huseyin-yazici/typescript_learn/issues"
+  },
+  "homepage": "https://github.com/huseyin-yazici/typescript_learn#readme",
+  "devDependencies": {
+    "@types/node": "^26.6.6",
+    "tsx": "^4.23.15",
+    "typescript": "^7.0.2"
+  },
+  "type": "module",
+  "private": true
+}
